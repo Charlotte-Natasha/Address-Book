@@ -99,4 +99,31 @@ button {
 .address label {
   display: block;
   font-weight: 700;
+  color: #ffe3b3;
+  margin-bottom: O.6rem;
+}
+.address input,
+.address select {
+  border: 1px solid #c957bc;
+  border-radius: 3px;
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: 0;
+  width: 100%;
+}
+#addBtn button {
+  font-size: 1.1rem;
+  color: #ffe3b3;
+  border-radius: 4px;
+  padding: 0.6rem 2rem;
+  transition: all 200ms ease;
+}
+#addBtn button:hover {
+  transform: translateY(1px);
+}
+#saveBtn {
+  box-shadow: 0 2px O O #c957bc;
+  background-color: #c957bc;
+  margin-right: 0.6rem;
 }
