@@ -28,16 +28,16 @@
   <body>
     <div id="fullscreen-div"></div>
     <form class="head" id="head">
-      <div class="content">
+      <div class="container">
         <div class="contentHead">
           <h3 id="title">Add Address</h3>
           <button type="button" id="btn">
             <i class="fas fa-times"></i>
           </button>
         </div>
-        <div class="main">
-          <div class="row">
-            <div class="col">
+        <div class="mainCont">
+          <div class="addMain">
+            <div class="address">
               <label for="">How should your mail be </label>
               <input
                 type="text"
@@ -47,8 +47,8 @@
               />
             </div>
           </div>
-          <div class="row">
-            <div class="col">
+          <div class="addMain">
+            <div class="address">
               <label for="">First Name </label>
               <input
                 type="text"
@@ -57,9 +57,8 @@
                 name="first-name"
               />
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
+
+            <div class="address">
               <label for="">Last Name</label>
               <input
                 type="text"
@@ -69,8 +68,8 @@
               />
             </div>
           </div>
-          <div class="row">
-            <div class="col">
+          <div class="addMain">
+            <div class="address">
               <label for="">Email</label>
               <input
                 type="text"
@@ -79,9 +78,8 @@
                 name="email"
               />
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
+
+            <div class="address">
               <label for="">Phone Number</label>
               <input
                 type="text"
@@ -91,8 +89,8 @@
               />
             </div>
           </div>
-          <div class="row">
-            <div class="col">
+          <div class="addMain">
+            <div class="address">
               <label for="">Street Address</label>
               <input
                 type="text"
@@ -101,9 +99,8 @@
                 name="street address"
               />
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
+
+            <div class="address">
               <label for="">Postal Code</label>
               <input
                 type="text"
@@ -112,6 +109,37 @@
                 name="postal-code"
               />
             </div>
+          </div>
+          <div class="addMain">
+            <div class="address">
+              <label for="">City</label>
+              <input
+                type="text"
+                placeholder="City Name"
+                class="form-control"
+                name="City"
+              />
+            </div>
+
+            <div class="address">
+              <label for="">Country</label>
+              <select id="country-list" name="country">
+                <option value="">Kenya</option>
+              </select>
+            </div>
+          </div>
+          <div class="addMin">
+            <div class="address">
+              <label for="">Labels</label>
+              <select name="labels">
+                <option value="Family">Family</option>
+                <option value="Friends">Friends</option>
+                <option value="Colleagues">Colleagues</option>
+              </select>
+            </div>
+          </div>
+          <div class="addMain">
+            <button type="submit" id="saveBtn">Save</button>
           </div>
         </div>
       </div>
