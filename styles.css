@@ -15,7 +15,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   min-height: 100vh;
-  background-color: #752092;
+  background-color: #ffe3b3;
 }
 h3 {
   color: #ffe3b3;
@@ -44,5 +44,17 @@ button {
   background-color: #5ec5d4;
   border-radius: 0.6rem;
   overflow: hidden;
-  display: none;
+  /*display: none;*/
+  position: fixed;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.heaDer {
+  background-color: #752092;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.5rem;
+  color: #c957bc;
+  position: relative;
 }
