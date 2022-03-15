@@ -6,19 +6,19 @@
   box-sizing: border-box;
 }
 :root {
-  --purple-color: #4d0f28;
-  --violet: #d34dd2;
-  --lilac: #c8a2c9;
-  --raisin: #29021a;
-  --eggplant: #311465;
+  --purple-color: #752092;
+  --violet: #c957bc;
+  --lilac: #ffc872;
+  --raisin: #ffe3b3;
+  --eggplant: #5ec5d4;
 }
 body {
   font-family: "Open Sans", sans-serif;
   min-height: 100vh;
-  background-color: var(--lilac);
+  background-color: #752092;
 }
 h3 {
-  color: #311465;
+  color: #ffe3b3;
 }
 input,
 button {
@@ -29,4 +29,20 @@ button {
 }
 button {
   cursor: pointer;
+}
+#fullscreen-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffc872;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+}
+.head {
+  background-color: #5ec5d4;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  display: none;
 }
