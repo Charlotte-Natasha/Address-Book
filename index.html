@@ -26,9 +26,96 @@
     />
   </head>
   <body>
-    <div class="container">
-      <h1 class="center-align">Address Book</h1>
-    </div>
+    <div id="fullscreen-div"></div>
+    <form class="head" id="head">
+      <div class="content">
+        <div class="contentHead">
+          <h3 id="title">Add Address</h3>
+          <button type="button" id="btn">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="main">
+          <div class="row">
+            <div class="col">
+              <label for="">How should your mail be </label>
+              <input
+                type="text"
+                placeholder="E.g The Onyango's"
+                class="form-control"
+                name="addr-ing-name"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="">First Name </label>
+              <input
+                type="text"
+                placeholder="First name"
+                class="form-control"
+                name="first-name"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="">Last Name</label>
+              <input
+                type="text"
+                placeholder="Last Name"
+                class="form-control"
+                name="last-name"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="">Email</label>
+              <input
+                type="text"
+                placeholder="@gmail.com"
+                class="form-control"
+                name="email"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="">Phone Number</label>
+              <input
+                type="text"
+                placeholder="Phone number"
+                class="form-control"
+                name="Phone"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="">Street Address</label>
+              <input
+                type="text"
+                placeholder="Street address, apartment, House Number e.t.c"
+                class="form-control"
+                name="street address"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="">Postal Code</label>
+              <input
+                type="text"
+                placeholder="00100"
+                class="form-control"
+                name="postal-code"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
 
     <script src="script.js"></script>
   </body>
